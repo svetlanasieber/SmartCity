@@ -1,0 +1,46 @@
+{
+  "name": "smart-home-simulator",
+  "version": "1.0.0",
+  "description": "A Java REST API built on SpringBoot + Maven and VueJs for the front end that simulates the operation of a smart home.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd src/main && npm run dev",
+    "prod": "cd src/main && npm run prod",
+    "start": "cd src/main && npm run dev && cd ../../ && ./mvnw spring-boot:run",
+    "prettier": "prettier --write src/main/resources/",
+    "prettier:check": "prettier --check src/main/resources/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-triassi/smart-home-simulator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-triassi/smart-home-simulator/issues"
+  },
+  "homepage": "https://github.com/m-triassi/smart-home-simulator#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "axios": "^0.21.0",
+    "vue": "^2.6.12",
+    "vue-js-toggle-button": "^1.3.3",
+    "vue-tabs-component": "^1.5.0",
+    "vuetify": "^2.3.14",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "deepmerge": "^4.2.2",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^5.0.4",
+    "prettier": "^2.2.1",
+    "sass": "^1.27.0",
+    "sass-loader": "^10.0.3"
+  }
+}
